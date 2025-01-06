@@ -1,0 +1,15 @@
+name: cs7650
+channels:
+  - defaults
+dependencies:
+  - python
+  - matplotlib
+  - tqdm
+  - jupyter
+  - pip
+  - pip:
+    - torch
+    - torchtext
+    - notebook
+    - numpy
+    - spacy
