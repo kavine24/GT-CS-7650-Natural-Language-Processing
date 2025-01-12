@@ -2,14 +2,11 @@ name: cs7650
 channels:
   - defaults
 dependencies:
-  - python
+  - python==3.11
   - matplotlib
   - tqdm
   - jupyter
   - pip
+  - python-graphviz
   - pip:
-    - torch
-    - torchtext
-    - notebook
-    - numpy
-    - spacy
+    - -r requirements.txt
